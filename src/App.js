@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import Navigation from './components/Navigation/Navigation';
+import Logo from './components/Logo/Logo';
+import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
+import Rank from './components/Rank/Rank';
+// import FaceRecognition from './components/FaceRecognition/FaceRecognition';
+import Particles from './components/Particles/Particles';
 import './App.css';
 
+
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Particles id='tsparticles'/>
+      <Navigation />
+      <Logo />
+      <Rank />
+      <ImageLinkForm/>
+      {/* <FaceRecognition /> */}
+  </div>
   );
 }
 
