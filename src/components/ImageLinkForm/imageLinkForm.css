@@ -10,3 +10,16 @@
   background-size:80px 140px;
   background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
+
+.bounding-box { 
+  position: absolute;
+  box-shadow: 0 0 0 3px #11cf31 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+h2 {
+  color: rgb(219, 189, 18);
+}
